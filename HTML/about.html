@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dev</title>
+   <link rel="stylesheet" href="../css/style.css">
+    <style>
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+
+        /* parent ko through child lai change hareko desendent selector */
+         header ul{
+            padding: 0;
+            
+            
+         }
+        
+         header li{
+            display: inline;
+            padding-right: 12px;
+           
+            
+
+        }
+        #main{
+            background-color: red;
+            text-decoration: underline;
+            /* color: red; */
+        }
+        .uppercase{
+            text-transform: uppercase;
+            
+        }
+        .text-red{
+            color: red;
+        }
+        .box{
+           border: 1px solid red;
+            margin-left: 120px;
+            margin-right: 120px;
+            padding: 50px ;
+        }
+        /* .yellop{
+            color:red;
+        } */
+        header a{
+            color:blueviolet;
+            text-transform: capitalize;
+        }
+        
+        .about{
+            text-decoration: underline;
+            color: red;
+        }
+        .contact{
+          
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+       
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+            <ul>
+
+                <li ><a href="./index.html" target="_blank">home</a></li>
+                <li><a href="../HTML/index.html">main</a></li>
+                <li><a href="#" class="about">about</a></li>
+                <li><a href="../HTML/index.html">blogs</a></li>
+                <li><a href="../courses/contact.html" class="contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>about us</h1>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quia fuga tempora, itaque autem iste quos vero porro perspiciatis eum explicabo, beatae provident ab, cumque aliquam. Veniam reiciendis voluptatibus quae!</p>
+   
+    <span>welcome</span>
+    <span>to</span>
+    <span class="uppercase text-red">mindrisers</span>
+    <h2>element type</h2>
+
+    <ul>
+        <li>block</li>
+        <li>inline</li>
+        <li>inline-block</li>
+    </ul>
+
+    <h2>our team</h2>
+    <ul>
+        <li class="uppercase">ram</li>
+        <li class="uppercase">hari</li>
+        <li class="uppercase text-red">rami</li>
+        <li>rami</li>
+    </ul>
+
+    
+
+    <h2>selector</h2>
+    <ul>
+        <li>clement</li>
+        <li > <span id="main">class</span></li>
+        <!-- using span we can change specific text -->
+        <li>id</li>
+        <li class="uppercase">
+            combination of selector
+            <ul class="text-red">desendent sekector</ul>
+        </li>
+    </ul>
+
+    
+    
+    
+        <a href="../courses/table2.html">table</a>
+   
+    
+    
+
+    <footer>
+        <li></li>
+        <li></li>
+        <li></li>
+        </footer>
+
+</body>
+
+</html>

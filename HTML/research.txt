@@ -1,0 +1,46 @@
+dec.4
+Homework:research
+
+research on relative vs absolute path 
+
+/home/index -: is wrong approach 
+
+--Right approach--
+
+./ one level samma( means parent folder  )
+../ two level samma ( means parent ko ni )parent folder
+
+dec.5
+
+...for space &nbsp
+
+-----research--------
+.../ yesley work gardaina (three level samma kasari achieve garni) 
+../../   yesari hamile three level smmma ko file achieve garna sakinxa
+
+
+dec.6.......
+...table task..
+rowspan
+colspan
+
+dec.7...
+
+task viberma xa table banauni html and css use garera ... task completed
+using transform and writting mode,also we can use class and id
+research about margin and padding
+
+
+dec..8
+
+research about display: flex , grid and others properties
+
+dec..10
+practice about padding margin etc..
+
+dec..11
+rem and em different research
+and universal selector mah box-sizing:border box why?
+
+dec.. 12
+and selector(td.active and a.active) same class but work differently

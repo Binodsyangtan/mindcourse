@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        td.active {
+
+            background-color: green;
+            color: white;
+        }
+
+        a.active {
+            columns: red;
+        }
+        ul.active{
+           
+            text-transform: capitalize;
+            text-decoration:overline;
+        }
+
+        td.inactive{
+            background-color: rgb(133, 221, 0) ;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <li><a href="../HTML/about.html">about</a></li>
+    <li><a href="#" class="active">contact</a></li>
+
+
+    <h1>measurement units</h1>
+    <ul class="active">
+        <li>
+            px
+        </li>
+        <li>%</li>
+
+
+    </ul>
+
+    <table border="">
+        <tr>
+            <th>hello</th>
+            <th class="active">class</th>
+        </tr>
+        <tr>
+            <td class="active">active</td>
+            <td class="inactive">inactive</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
