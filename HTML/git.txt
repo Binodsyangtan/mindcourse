@@ -3,7 +3,7 @@
 1.git init
 2.git remote add origin https://github.com/Binodsyangtan/mindcourse
 
- to change> git remote set-url origin https://github.com/Binodsyangtan/mindrisers
+ to change>   git remote set-url origin https://github.com/Binodsyangtan/mindrisers
   2.1 to check stop 2
     git remote -v
 
@@ -13,6 +13,6 @@
 //regular codes..
 1.git status // optional
 2. git add .
-   git add git.txt (to add a single file)
+   git add git.txt (to add a single filegit )
 3. git commit -m "html-css"
 4.git push
