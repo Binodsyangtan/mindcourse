@@ -44,3 +44,9 @@ and universal selector mah box-sizing:border box why?
 
 dec.. 12
 and selector(td.active and a.active) same class but work differently
+
+
+dec..15
+about flex,grid
+
+research garni(child(fles-grow, order), parent(flex-wrap, flex-direction))

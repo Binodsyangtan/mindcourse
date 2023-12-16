@@ -16,3 +16,11 @@
    git add git.txt (to add a single filegit )
 3. git commit -m "html-css"
 4.git push
+
+
+//optional
+    git restore
+    git clean -f -d 
+
+
+when code are update form both side so we have to commmit before pull 

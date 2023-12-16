@@ -3,15 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>grid css</title>
+
+    <style>
+        
+    .gird-css{
+        background-color: blueviolet;
+        height: 200px ;
+        width: 200px;
+        display: grid;
+        grid-template-rows:50px 50px 50px;
+        grid-template-columns: 50px 50px 50px;
+        column-gap: 12px;
+        row-gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);   /* it will adjust all item in 2 times repeat in a container ,like when we give repeat(3, 1fr) then it will give 3 items adjust in container*/
+
+    }
+
+    .grid-item{background-color: yellow;
+        height: 40px;
+        width: 40px;
+
+    }
+
+
+
+
+    </style>
 </head>
 <body>
-    hello world
-
-    <h2>nana
-
-    </h2>
-    <div class="box"></div>
+    <div class="gird-css">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">4</div>
+        
+        
+        
+    </div>
     
+   
 </body>
 </html>
