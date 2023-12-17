@@ -1,0 +1,254 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Martel+Sans:wght@600&family=Rubik:wght@300&display=swap" rel="stylesheet"> */
+
+nav {
+    display: flex;
+    justify-content:space-between;
+  
+
+}
+
+.logo-wapper {
+    display: flex; 
+    width: 148px;
+    height: 36.23px;
+    gap: 0.7rem;
+    margin-left: 5rem;
+    margin-right: -60px;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 7px;
+    
+    
+
+}
+
+.logo-wapper img{
+    height: 31px;
+    width: 29px;
+}
+.logo-wapper p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+   
+    /* font-weight: 100; */
+}
+
+.logo-wapper p span{
+    font-weight: bolder;
+}
+
+
+.logo-wapper span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 28px;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+    font-weight: lighter;
+    color: #444444);
+    
+}
+
+.btn-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 7rem;
+}
+
+#btn1 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#btn-border {
+    border: 1.5px solid red;
+    border-radius: 50px;
+    width: 100px;
+    height: 33px;
+    padding: 0;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    
+
+}
+
+.written {
+    /* border: 1px solid; */
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 1rem;
+
+}
+
+.p1-bold {
+    font-family: 'Courier Prime', monospace;
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+
+}
+.written-h1-bold{
+    font-weight: bolder;
+}
+
+.p2-bold {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+
+}
+.written-bold{
+   font-weight: 100;
+}
+
+
+
+.written button {
+    width: 155px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-top: 12px;
+    
+  
+
+
+}
+
+.btn {
+    display: flex;
+    align-items: end;
+  
+   
+    
+   
+}
+#btn-bold{
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Courier Prime', monospace;
+  
+    
+}
+
+.img {
+    margin-right: 1rem;
+    /* border: 1px solid;f */
+    margin-right: 5rem;
+
+}
+
+.img img {
+    height: 320px;
+    width: 500px;
+}
+
+.third-box {
+    height: 100px;
+    /* width: rem; */
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+    margin-top: 7rem;
+    align-items: center;
+    box-shadow: 0px 13px 50px -27px #0D1025;
+    /* width: 50%;
+    height: 25%; */
+}
+.third-first{
+    display: flex;
+    margin-left: -7rem;
+    gap: 1.3rem;
+    align-items: center;
+}
+.third-first img{
+    height: 3rem;
+    width: 3rem;
+    gap: 1rem;
+}
+.third-first p{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier Prime', monospace;
+   
+}
+#users-bold{
+    font-weight: bolder;
+}
+.third-second{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: -4rem;
+    margin-right: 3rem;
+   
+}
+
+.third-second img{
+    height: 3rem;
+    width: 3rem;
+   
+}
+.third-second p{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier Prime', monospace;d
+}
+
+#location-bold{
+    font-weight:bolder ;
+}
+.third-third{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: -6rem;
+    margin-right: -12rem;
+}
+
+.third-third img{
+    height: 3rem;
+    width: 3rem;
+   
+}
+.third-third p{
+    display: flex;
+    flex-direction: column;
+}
+
+#Server-bold{
+    font-weight: bolder;
+}
