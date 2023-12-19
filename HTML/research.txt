@@ -62,4 +62,7 @@ dec...18 (day 13)
    4.pseudo-class research garni
 
 dec...19 (day 14)
+      1
+      1. pseudo elemnts after before...
+      2. css-positions   5 types ((IMP))
 
