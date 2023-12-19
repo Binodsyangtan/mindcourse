@@ -50,3 +50,16 @@ dec..15
 about flex,grid
 
 research garni(child(fles-grow, order), parent(flex-wrap, flex-direction))
+
+dec.17 no class
+
+dec...18 (day 13)
+   0.(decendent selector ,  and selector)
+
+   1.overflow:scrool,hidden,
+   2.flex-wrap:wrap; yesley box or vitra sabai content lai aatauda xa 
+   3.align-content:center,   this will use when you have multiple row (dherai use hunna) flex-wrap:wrap most need for align-content use
+   4.pseudo-class research garni
+
+dec...19 (day 14)
+

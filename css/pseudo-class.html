@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        .parent{
+            width:200px;
+            border: 1px solid;
+            
+
+        }
+        .child{
+            border: 1px solid;
+            padding: 1rem;
+        }
+
+        /* div.fifth.child{
+            background-color: red;
+        } */
+
+
+        
+
+        header :first-child{
+            background-color:red;
+        }
+        .child:nth-child(2){
+            background-color: yellow;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="parent">
+       
+        <div class="child">child1</div>
+        <div class="child">child2</div>
+        <div class="child">child3</div>
+        <div class="child">child4</div>
+        <div class="child fifth">child5</>
+</header>
+
+
+    </div>
+    <div class="parent">
+        <p>para-1</p>
+        <p>para-2</p>
+        <p>para-3</p>
+        <p>para-4</p>
+        <p class="fifth">para-5</p>
+    </div>
+
+    <ul>
+        <li>hover</li>
+        <li>focus</li>
+        <li>before</li>  //pseudo element
+        <li>after</li>   //pseudo element
+
+
+    </ul>
+
+        
+    </body>
+</html>

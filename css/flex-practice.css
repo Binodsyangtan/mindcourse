@@ -12,13 +12,13 @@ nav {
 .logo-wapper {
     display: flex; 
     width: 148px;
-    height: 36.23px;
+    /* height: 36.23px; */
     gap: 0.7rem;
     margin-left: 5rem;
     margin-right: -60px;
     justify-content: center;
     align-items: center; 
-    margin-top: 7px;
+    /* margin-top: 7px; */
     
     
 
