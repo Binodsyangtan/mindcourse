@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LaslesVPN</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 1rem;
+
+      }
+      .logo-wapper{
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        margin-left: 2rem;
+      }
+
+      .logo-wapper img {
+        height: 31px;
+        width: 29px;
+      }
+      .menu{
+        display: none;
+        /* position: absolute; */
+        top:3rem;
+        
+      }
+      .menu-img{
+        height: 30px;
+      }
+      .second-container{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        gap: 3rem;
+
+      }
+      .img img{
+        
+        height: 220px;
+        position: relative;
+        top: 40px;
+        left: 6rem;
+      }
+      .written{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+      }
+      @media(min-width:640px){
+        .menu-img{
+            display: none;
+        }
+        .menu{
+            display:flex;
+            gap:1rem;
+            align-items: center;
+            
+        }
+        .menu ul{
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+        .btn-div{
+            margin-right: 1rem;
+        }
+        .second-container{
+            flex-direction: row-reverse;
+          
+        }
+        .img img{
+            left:-1rem;
+        }
+        .written{
+            top: 1rem;
+        }
+
+      }
+      @media(min-width:768px){
+        .menu{
+            gap:4rem;
+            display:flex;
+            align-items: center;
+        }
+        .menu ul{
+            gap: 30px;
+        }
+        .btn-div{
+            margin-right: 2rem;
+            display: flex;
+            gap: 1rem;
+            
+        }
+        .img img{
+            height: 260px;
+            left:-1rem;
+        }
+        .written{
+            top: 1rem;
+        }
+
+
+
+      }
+      @media(min-width:1020px){
+        .menu{
+            gap:6rem;
+            display:flex;
+            align-items: center;
+        }
+        .menu ul{
+            gap: 40px;
+        }
+        .btn-div{
+            margin-right: 4rem;
+            display: flex;
+            gap: 1.5rem;
+            
+        }
+        .img img{
+            height: 320px;
+            left:-3rem;
+        }
+        .written{
+            top: 1rem;
+        }
+
+        
+
+
+
+      }
+      
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo-wapper">
+        <img src="./pic/VPN/logo.png" alt="" />
+        <p><span class="bold-span">LaslesVPN</span></p>
+      </div>
+      <div class="menu"><ul>
+        <li>About</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Testimonials</li>
+        <li>Help</li>
+      </ul>
+      <div class="btn-div">
+        <button id="btn1">Sign in</button>
+        <button id="btn-border">Sign up</button>
+      </div></div>
+      <img src="./pic/VPN/menu-lined-icon.svg" alt="" class="menu-img">
+    </nav>
+
+    <div class="second-container">
+       
+
+        <div class="img">
+            <img src="./pic/VPN/Illustration 1.png" alt="">
+        </div>
+
+        <div class="written">
+           
+            <p>
+                <span>want anthing to be</span>
+                <span>easy with <span class="written-h1-bold">LaslesVPN.</span></span>
+            </p>
+            <p>
+                <span>provide a network for all your needs with ease and fun using <span
+                        style="font-weight: bold;">LaslesVPN</span></span>
+                <span>discover interesting Features from us.</span>
+            </p>
+            <div class="btn">
+
+                <button id="btn-bold">Get Started</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+  </body>
+</html>
