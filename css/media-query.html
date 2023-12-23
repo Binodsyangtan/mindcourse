@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query </title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        .project{
+            
+            
+            border: 1px solid black;
+            padding: 1rem;
+            width: 25%;
+        }
+        @media(max-width:1920px){
+            .projects{
+            display:flex;
+            flex-wrap: wrap;
+            gap: 2%;
+
+        }
+        @media(max-width:1279px){ 
+            
+        }
+            /* this is for small laptops */
+            .project{
+                width: 31.33%;
+            }
+
+          
+        }
+        /* 768px- 1023px tablet */
+        @media(max-width:1023px){
+            .project h2{
+                text-align: center;
+            }
+            .project{
+                width: 48%;
+            }
+        }
+        @media(max-width:767px){
+            .projects{
+                gap: 2%;
+            }
+            .project{
+                width: 98%;
+            }
+        }
+
+        
+        
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>projects</h1>
+    <hr>
+    <div class="projects">
+
+        <div class="project">
+            <h2>Git</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi quo nam officiis eum suscipit nisi officia vitae numquam doloribus quisquam, illo magni veritatis adipisci aliquid optio qui ut facere.</p>
+        </div>
+        <div class="project">
+            <h2>html</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi quo nam officiis eum suscipit nisi officia vitae numquam doloribus quisquam, illo magni veritatis adipisci aliquid optio qui ut facere.</p>
+        </div>
+        <div class="project">
+            <h2>python</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi quo nam officiis eum suscipit nisi officia vitae numquam doloribus quisquam, illo magni veritatis adipisci aliquid optio qui ut facere.</p>
+        </div>
+        <div class="project">
+            <h2>QA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi quo nam officiis eum suscipit nisi officia vitae numquam doloribus quisquam, illo magni veritatis adipisci aliquid optio qui ut facere.</p>
+        </div>
+        <div class="project">
+            <h2>react</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi quo nam officiis eum suscipit nisi officia vitae numquam doloribus quisquam, illo magni veritatis adipisci aliquid optio qui ut facere.</p>
+        </div>
+        <div class="project">
+            <h2>nodejs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi quo nam officiis eum suscipit nisi officia vitae numquam doloribus quisquam, illo magni veritatis adipisci aliquid optio qui ut facere.</p>
+        </div>
+
+
+    </div>
+   
+        
+
+   
+    
+</body>
+</html>

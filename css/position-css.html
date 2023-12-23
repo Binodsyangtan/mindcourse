@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>css-position</title>
     <style>
+        .box{
+            border: 1px solid;
+            height: 100px;
+            width: 100px;
+        }
 
        .static{
            position: static ;
        }
        .relative{
            position: relative ;
+           left: 50px;
+           top: 20px;
        }
        .absolute{
+        background-color: yellow;
            position: absolute;
+           top: 0px;
+           right: 0px;
        }
        .fixed{
+        background-color: blueviolet;
            position: fixed;
+           top: 100px;
+           right: 0px;
        }
        .sticky{
            position: sticky;
+       }
+       
+
+
+       .discription{
+        
        }
 
 
@@ -38,6 +57,13 @@
         <li class="box  sticky">sticky</li>
 
     </ul>
+
+
+    <div class="discription">
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam exercitationem dolor vel ipsa, quidem neque obcaecati nihil officia at omnis tempore quo facere dolores sit qui, minima iusto eaque!</p>
+    </div>
     
 </body>
 </html>

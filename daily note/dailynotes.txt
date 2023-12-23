@@ -1,0 +1,11 @@
+dec.....21
+      1. about position:sticky; while using sticky we have to give top:0; something like this top is neccesary 
+      2. z-index:0;   only work on child child not on parent child 
+      3.
+
+dec....22 day(17)
+
+
+      1.media-query
+      2.home using media-query box bich mah gap banauni
+      3.vpn wala lai mobile first approch use garera banauni try garni 

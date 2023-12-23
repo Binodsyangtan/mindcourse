@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex ;
+    justify-content: center;
+   
+ 
+
+    
+
+}
+.box{
+    display: flex;
+    background-color: #FFF5C5;
+    height: 500px;
+    width: 60%;
+    border-radius: 25px;
+    /* margin: auto;
+    padding: auto; */
+   /* position: relative; */
+    position: absolute; 
+    /* position: absolute; */
+    overflow: hidden;
+
+}
+.written{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    height: 300px;
+    width: 300px;
+    gap: 1rem;
+    position: relative;
+    top: 2rem;
+    left: 2rem;  
+}
+
+.transparent{
+    position: relative;
+    font-size: 37px;
+    z-index: 1;
+}
+.written img{
+    left: 158px;
+    position: relative;
+    width: 131px;
+    bottom: 27px;
+    z-index: auto;
+}
+
+
+p{
+    font-size: 37px;
+    bottom: 1.6rem;
+    color: #E27C00;
+    left: 12px;
+    
+}
+p span{
+    font-size: 14px;
+}
+
+ 
+
+
+.circles{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: -44px;
+    gap: 0.6rem;
+   position: absolute;
+}
+
+.circle{
+    
+   
+    
+    display: flex;
+    background-color: #D3FFEA;
+    height: 178px;
+    width: 178px;
+    border-radius: 50%;
+  
+    
+
+}
+
+.circle-sum{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 2px;
+
+}
+
+.box2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: #FFFFFF;
+    height: 90%;
+    width: 50%;
+    border-radius: 25px;
+    top: 25px;
+    right: -115px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    gap: 10px;
+    padding: 29px;
+    /* position: relative; */
+    
+}
+form label{
+    font-size: 16px;
+}
+.input-box{
+    background-color: #F8F7F8;
+    height: 43px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -1rem;
+    right: 37px;
+    gap: 12px;
+   
+    
+}
+.button button{
+    cursor: pointer;
+    color: white;
+    font-size:17px;
+    padding: 0.6rem;
+    background-color: #E27C00;
+    border-radius: 25px;
+    display: flex;
+    border: none;
+    
+}
+
+button img{
+    color: white;
+    height:20px ;
+    filter: brightness(0) invert(1);
+
+}

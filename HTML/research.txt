@@ -65,4 +65,14 @@ dec...19 (day 14)
       1
       1. pseudo elemnts after before...
       2. css-positions   5 types ((IMP))
+      3.overflow:hidden(use garera figma desgin ko circle wala garni)
 
+
+dec...20  (day 14)
+      ........>>>>>>   overflow:hidden
+    important properties of css\   
+    1.positions
+     a.static   (normal hunxa)
+     b.relative (le aafno original positions matra linxa browser ko lidaina )
+     c.absolute  (le position browser ko linxa  position )
+     d.fixed   ()
