@@ -21,6 +21,7 @@
 //optional
     git restore
     git clean -f -d 
+    
 
 
 when code are update form both side so we have to commmit before pull 

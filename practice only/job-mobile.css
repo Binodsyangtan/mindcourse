@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    z-index: 9999999999999;
+    
+
+}
+.logo{
+    margin-left: 25px;
+
+  
+}
+.buttons{
+    display: flex;
+    gap: 12px;
+    margin-right: 12px;
+}
+.second{
+    position: relative;
+}
+
+.second img{
+    width: 100%;
+    position: absolute;
+    /* z-index: ; */
+    top: -14px;
+    height:  auto;
+}
+
+.written{
+    position: absolute;
+    width: 50%;
+    left: 25px;
+}
+
+
+
+.big-p{
+    font-size: 35px;
+
+}
+
+.big-p span{
+    color: #338573;
+}
+.small-p{
+    font-size: 12px;
+}
+
+.search-box{
+    position: absolute;
+
+    top: 195px;
+    width: 60%;
+    left: 25px;
+}
+.search-box input{
+    width: 50%;
+    border-radius: 10px;
+    height: 20px;
+    border: none;
+}
+.search-box button{
+    
+    position: absolute;
+    border: none;
+    background-color: #338573;
+    color: white;
+    height: 20px;
+    padding:2px 5px 2px 5px;
+    border-radius: 10px;
+}
+
+.third{
+    background-color: #F6F7FA;
+    height: 200px;
+    width: 100%;
+}
+.child{
+    /* top: 200px; */
+    /* position: absolute; */
+   /* display: grid; */
+   display: grid;
+  column-gap: 50px;
+  row-gap: 30px;
+    background-color: #338573;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
+
