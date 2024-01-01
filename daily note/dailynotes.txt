@@ -9,3 +9,11 @@ dec....22 day(17)
       1.media-query
       2.home using media-query box bich mah gap banauni
       3.vpn wala lai mobile first approch use garera banauni try garni 
+
+
+dec...31
+      
+
+      1.grid-template-columns: repeat(3,1fr); ----> important properties
+      2.gird-row:span 3;  ---->important properties
+      3.gird0-column-start(end)-------> important properties
