@@ -17,3 +17,14 @@ dec...31
       1.grid-template-columns: repeat(3,1fr); ----> important properties
       2.gird-row:span 3;  ---->important properties
       3.gird0-column-start(end)-------> important properties
+
+
+
+jan...1
+
+      1.about gird
+      2.specificity-score(...kun first id>class>tag>)
+      3.hover vitra transfrom garema sano animation dekhinxxa
+      4.transition: for kati time lagne lagauni transfrom huda vanne mah use hunxa
+      5.transition:all 0.5sec; garema sabaima 0.5sec lagxa shortcut ho 
+      6.@keyframe spin{}

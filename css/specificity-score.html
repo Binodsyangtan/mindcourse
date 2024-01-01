@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>specificity-score</title>
+    <style>
+
+        /* 0,1,0 */
+         .child{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            background-color: red;
+
+        }
+        /* 1,0,0 */
+        #id{
+            background-color: green;
+        } */
+        .parent :first-child{
+            background-color:purple;
+        }
+        /* 1,2,1 */
+        section{
+            background-color:brown !important;
+        }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>specificity-score</h1>
+    <h2>id>class>tags</h2>
+    <div class="parent">
+        <div class="child" id="id" style="background-color: black;"></div>
+        
+    </div>
+    
+</body>
+</html>
