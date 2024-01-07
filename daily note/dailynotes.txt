@@ -28,3 +28,28 @@ jan...1
       4.transition: for kati time lagne lagauni transfrom huda vanne mah use hunxa
       5.transition:all 0.5sec; garema sabaima 0.5sec lagxa shortcut ho 
       6.@keyframe spin{}
+
+jan...2
+
+      1.sir le responsive banako nav
+
+jan...3
+      0.sir le vpn mah responsive banauna js use gareko drawer mah
+      1.bootstrap ko jasto alert type ko aaunu paryou
+      2.js onlick type padheko nav mah transfrom 
+      2.try garni vpn ko feri responsive with reuse class or id hau or aru kura haru ni reuse huni garni lekhne 
+
+
+jan...4
+
+      1.aja bata js ko class suru
+      2.variables
+
+
+jan...5
+
+
+
+jan...7
+
+      1.

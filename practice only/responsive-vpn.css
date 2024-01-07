@@ -28,16 +28,26 @@ nav{
 
 }
 
+
+/* 
+.drawer{
+    background-color: red;
+    display: initial;
+    transform:translateX(100%);
+} */
+
 .menu{
     display: none;
+    list-style: none;
 }
+
 .menu-img{
     
     position: relative;
     margin-right:20px;
     height: 30px;
    
-}
+} 
 
 
 .second-container{
