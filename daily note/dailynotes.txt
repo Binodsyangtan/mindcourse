@@ -53,3 +53,23 @@ jan...5
 jan...7
 
       1.
+
+
+jan...8
+
+      about array again "object" practice
+      1.question solve garni jasma object deko huxna tesma bahira bata change garni 
+
+
+
+jan...9
+
+      1.object create garni 
+      2.object vitra access garni bahirako code bata
+      3.change garni object mah bahira bata
+      4.js mah function ko barema research garni
+
+jan...10 
+
+      1.object banauni practice
+      
