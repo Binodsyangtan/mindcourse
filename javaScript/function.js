@@ -1,129 +1,30 @@
-/* Function  */
+let todos = [
+    { createdAt: "2080-09-09", name: "html", status: "completed" },
+    { createdAt: "2080-09-08", name: "css", status: "completed" },
+    { createdAt: "2080-09-07", name: "js", status: "completed" }, // TODO: change this status to pending
+  ];
 
-//array is collection of similar data-types
+/* yo mathi ko lai function mah convert garni  */
 
-let userData = [
-  {
-    name: "binod",
-    address: {
-      permaddress: {
-        district: "bara",
-        ward: 12,
-      },
-      tempaddress: {
-        district: "ktm",
-        ward: 3,
-      },
-    },
-  },
-];
-console.log(userData);
+// console.log(todos[0].name + "is" + todos[0].status)   // wrong way to do 
 
-let courses = [
-  {
-    course: "mern",
-    duration: "one hrs",
-    timing: "3-4pm",
-    students: [
-      {
-        name: "hari",
-        address: {
-          permanentaddress: {
-            district: "lalitpur",
-            ward: "02",
-          },
-          temporaryaddress: {
-            district: "kathmandu",
-            ward: "15",
-          },
-        },
-        educations: {
-          level: "+2",
-          grade: "3.5",
-          school: "school....",
-          passedyr: "2078",
-        },
-      },
-      {
-        name: "ram",
-        address: {
-          permanentaddress: {
-            district: "bara",
-            ward: "13",
-          },
-          temporaryaddress: {
-            district: "kathmandu",
-            ward: "15",
-          },
-        },
 
-        educations: [
-          {
-            level: "see",
-            grade: "3.4",
-            school: "geetamata sec. school",
-            passedyr: "2077",
-          },
-          {
-            level: "+2",
-            grade: "3.4",
-            school: "visho niketan school",
-            passedyr: "2080",
-          },
-        ],
-      },
-    ],
-  },
+function printStatus(index){
 
-  {
-    course: "web dev",
-    duration: "one hrs",
-    timing: "8-9am",
-    
-    students: [
-      {
-        name: "binod",
-        address: "swyambhu",
-        phone_no: "98xxxxxx",
-        education: {
-          level: "see",
-          school: "geetamata sec. school",
-          grade: "3.3",
-          passedyr: "2075",
-        },
-      },
-      {
-        name: "amrit",
-        address: "dallu",
-        phone: "983xxxxx",
-        address: {
-          permanentaddress: {
-            district: "dhankuta",
-            ward: "1",
-          },
-          temporaryaddress: {
-            district: "kathmandu",
-            ward: "2",
-          },
-        },
+  let name = todos[index].name
+  let status = todos[index].status
+  console.log(`${name} is ${status} for index :${index}`)
+}
 
-        educations: [
-          {
-            level: "see",
-            school: "aim school",
-            grade: "3.0",
-            passedyr: "2074",
-          },
-          {
-            level: "plus 2",
-            school: "viswa niketan school",
-            grade: "3.5",
-            passedyr: "2077",
-          },
-        ],
-      },
-    ],
-  },
-];
+printStatus(0) // 0 is argument 
+printStatus(1) // 1 is argument
+printStatus(2)
 
-console.log(courses);
+/* funtion
+       -reusable 
+*/
+function printTodoStatus(todos){
+  console.Log(`${todos.name} created at ${todos.createdAt} is ${todos.status}`)
+}
+
+printTodoStatus(todos[0])   //printTodoStatus 

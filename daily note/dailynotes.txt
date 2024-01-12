@@ -72,4 +72,16 @@ jan...9
 jan...10 
 
       1.object banauni practice
+      2.arry use garni kasari(array is collection of similar data-types )
+         arry multple similar data xa vane matra use garni 3 dekkhi dherai 2 ota samma chai arary use nagarda ramro huni 
+      3.practice gare object
       
+
+jan...11
+
+      1.function banauna sikeko and practice gareko din
+
+
+jan...12
+
+      1.function todos ko practice gare and other function ko example and practice
