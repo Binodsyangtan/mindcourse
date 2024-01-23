@@ -85,3 +85,20 @@ jan...11
 jan...12
 
       1.function todos ko practice gare and other function ko example and practice
+
+
+
+jan...21
+       
+      1.function practice garna baki mero (+ vpn ko banuna baki full ramari )
+      2.function kai practice gareko din
+
+
+jan...22
+
+      1.operators haru padheko
+      2.conditional statement (if, if-else, else if)
+
+jan...23
+
+      1.if if else haru with function sanga combine garera practice gareko din
