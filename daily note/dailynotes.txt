@@ -115,6 +115,22 @@ jan...26
       1.logical operators haru padheko and practice gareko use kasari garni and kaa garni vanera function haru mah
 
 
+
+jan...28
+
+      1.
+jan...29
+
+
+jan30....(moiley re video hernu parni funttion dekheki ko almost 25jan - 29 jan re watch videos)
+
+      1.research(
+            1.forEach
+            2.map
+            3.filter
+            4.find
+      )
+
       
      
      
