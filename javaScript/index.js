@@ -1,37 +1,41 @@
-let todos = [
-    {
-        title: "variable",
-        status: "completed",
-        createAt: "2024-01-03"
-    },
-    {
-        title: "array",
-        status: "completed",
-        createAt: "2024-01-05"
-    },
-    {
-        title: "object",
-        status: "completed",
-        createAt: "2024-01-07"
-    },
-    {
-        title: "loop",
-        status: "pending",
-        createAt: "2024-01-09"
-    },
-    {
-        title: "function",
-        status: "pending",
-        createAt: "2024-01-10"
-    },
-];
 
 
-todos.forEach((element) =>{
-    if(element.status == "completed"){
-        console.log(`${element.title} is completed`)
+let numbers = [1,2,3,4]
+
+/* map method bata gareko yo */
+let doubleNumber = numbers.map((n) =>2*n
+)
+
+console.log(doubleNumber)
+
+
+/* triple number gareko yo chai  */
+let tripleNumber = numbers.map((n) => 3*n)
+console.log(tripleNumber)
+
+/* forEach bata gareko yo  */
+let doubleNumbers = [];
+numbers.forEach((el) => doubleNumbers.push(2*el));
+
+console.log(doubleNumbers)
+
+
+const nepaliNames = ["Aarav", "Aarya", "Asha", "Anisha"];
+
+let dummyUsers = nepaliNames.map((el,index) =>(
+    {
+        name: el,
+        email: `${el.toLowerCase()}@gmail.com`,
+        password: `${el.toLowerCase()}${index}`
     }
-    else(
-        console.log(`${element.title} is pending`)
-    )
-})
+))
+
+console.log(dummyUsers)
+
+
+/* filter method use gareko example */
+
+let wholeNumbers = [1,2,3,4,5,6,7,8,12,11]
+let evenNumber = wholeNumbers.filter((n) => n%2 == 0)
+
+console.log(evenNumber)

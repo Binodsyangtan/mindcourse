@@ -131,7 +131,16 @@ jan30....(moiley re video hernu parni funttion dekheki ko almost 25jan - 29 jan 
             4.find
       )
 
-      
+
+jan...31
+
+      1.practice hijo research gareko kura haruko 
+       2(
+            1.find
+            2.filter
+            3.map
+            4.
+       )
      
      
      
