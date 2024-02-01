@@ -143,7 +143,11 @@ jan...31
        )
      
      
-     
+feb...1
+
+      1.asynchronous js suru vako aaja bata
+      2.Promise ko barema research garni
+      3.trycatch ko research garni 
      
      
      
