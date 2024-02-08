@@ -147,9 +147,29 @@ feb...1
 
       1.asynchronous js suru vako aaja bata
       2.Promise ko barema research garni
-      3.trycatch ko research garni 
+      3.trycatch ko research garni
+
+feb...2
+      
+      1.sir le todos banaunu vo jasma dom sikaunu vo 
+     
+
+feb...4
+
+      1.todos kai aagadi bdako delete garni 
+
+      2.video ramrri herna baki xa feb 4 ko 
+
+feb...5
+
+      1.feb 5 koni ramari herna baki xa vidoes so herni voli(aaja feb.7)
+
+feb..6
+
+      1.videos herna baki class naleko le 
      
      
-     
-     
-     
+
+feb...7
+
+      1.
