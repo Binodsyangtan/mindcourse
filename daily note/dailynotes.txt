@@ -157,6 +157,8 @@ feb...2
 feb...4
 
       1.todos kai aagadi bdako delete garni 
+      2.delete garnu aagi delete garni item or index lai print garna jannu paryou like console use agrera
+      3.complete vo todos aba yeslai flow ka sath banaune 
 
       2.video ramrri herna baki xa feb 4 ko 
 
@@ -172,4 +174,4 @@ feb..6
 
 feb...7
 
-      1.
+      1.git 
